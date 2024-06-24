@@ -1,0 +1,17 @@
+#!/bin/bash
+#Author: Vipul Singh
+#Subject: Final exam percentage script
+
+#This is a if else conditions practice.
+
+read -p "Enter your pecentage: " percentage
+if [[ $percentage -ge 90 ]];
+then
+	echo "You scored First division"
+elif [[ $percentage -ge 75 ]];
+then
+	echo "You scored second division"
+
+else
+        echo "You failed"
+fi
