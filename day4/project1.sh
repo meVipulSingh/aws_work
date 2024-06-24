@@ -53,4 +53,4 @@ if ! deploy; then
 	#sendingmail
 	exit 1
 fi
-echo "********DEPLOYMENT COMPLEATED********"
+echo "********DEPLOYMENT COMPLETED********"
